@@ -7,7 +7,6 @@ h1 {
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
-  text-align: left;
   margin-bottom: 0;
 }
 
@@ -26,7 +25,7 @@ li {
   line-height: 19px;
 }
 
-li::first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 
@@ -37,6 +36,7 @@ a {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30 auto;
+  padding-top: 30px;
 }
 
 .weather-app {
